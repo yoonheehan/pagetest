@@ -1,0 +1,51 @@
+.home {
+  display: flex;
+  height: 100%;
+}
+
+.home .leftside {
+  min-width: 250px;
+  height: 100%;
+  background-color: #ffdcdc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftside .profile {
+  margin: 10px auto;
+}
+
+.leftside .profile img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 10px 10px;
+  border-radius: 100%;
+}
+
+.menus {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menus > *:first-child {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: large;
+  font-weight: 600;
+}
+
+.introduce-body {
+  max-width: 250px;
+}
+
+.tags {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}

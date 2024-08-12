@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  flex-shrink: 0;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.nav > *:first-child {
+  text-decoration: none;
+  color: black;
+}
+
+.nav > *:not(:first-child) {
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+
+.footer-section {
+  border-top: 2px solid;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.footer {
+  margin: 20px auto;
+  display: flex;
+}
+
+.footer *:not(:last-child) {
+  margin-right: 10px;
+}
